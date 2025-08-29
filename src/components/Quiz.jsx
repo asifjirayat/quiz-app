@@ -29,7 +29,7 @@ const Quiz = () => {
   return (
     <div id="quiz">
       <p>
-        Question {activeQuestionIndex} of {QUESTIONS.length}
+        Question {activeQuestionIndex + 1} of {QUESTIONS.length}
       </p>
       <Question
         key={activeQuestionIndex}
