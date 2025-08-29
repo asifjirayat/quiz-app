@@ -9,6 +9,7 @@ const Question = ({ index, onSelectAnswer, onSkipAnswer }) => {
     isCorrect: null,
   });
 
+  // Change timer duration here
   let timer = 15000;
 
   if (answer.selectedAnswer) {

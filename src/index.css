@@ -89,6 +89,12 @@ header h1 {
   text-align: center;
 }
 
+#quiz p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
 #question-overview {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 0.8rem;
@@ -284,12 +290,11 @@ header h1 {
 }
 
 #summary .user-answer.wrong {
-  color: #730b4b;
+  color: #a00023;
 }
 
 #summary .user-answer.skipped {
-  color: #d1baf2;
-  font-weight: normal;
+  color: #867200;
 }
 
 #summary-stats {

@@ -28,6 +28,9 @@ const Quiz = () => {
 
   return (
     <div id="quiz">
+      <p>
+        Question {activeQuestionIndex} of {QUESTIONS.length}
+      </p>
       <Question
         key={activeQuestionIndex}
         index={activeQuestionIndex}
